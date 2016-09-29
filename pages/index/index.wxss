@@ -12,7 +12,7 @@
 }
 
 .menu-item{
-  padding:9rpx 17rpx;
+  margin:9rpx 17rpx;
   height: 57rpx;
   line-height:57rpx;
   text-align: justify;
@@ -20,6 +20,6 @@
 }
 
 .menu-item-inx {
-  padding-bottom: 21rpx;
+  margin-bottom: 21rpx;
   border-bottom:none;
 }
