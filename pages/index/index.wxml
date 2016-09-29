@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="mc">
+    <view class="menu">
+      <view class="menu-item menu-item-inx">基础控件库</view>
+      <view class="menu-item">ICON</view>
+      <view class="menu-item">TOAS</view>
+      <view class="menu-item">BUTTON</view>
+    </view>
+    <view class="menu">
+      <view class="menu-item menu-item-inx">基础控件组合样式</view>
+      <view class="menu-item">组合组件</view>
+    </view>
+  </view>
+</view>
