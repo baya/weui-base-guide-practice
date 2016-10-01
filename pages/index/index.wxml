@@ -1,29 +1,9 @@
 <!--index.wxml-->
 <view class="container">
   <view class="mc">
-    <view class="menu">
-      <view class="menu-item menu-item-inx">基础控件库</view>
-      <view class="menu-item">ICON</view>
-      <view class="menu-item">TOAS</view>
-      <view class="menu-item">BUTTON</view>
-      <view class="menu-item">输入</view>
-      <view class="menu-item">选择</view>
-      <view class="menu-item">列表</view>
-      <view class="menu-item">弹框</view>
-      <view class="menu-item">卡片</view>
-    </view>
-    <view class="menu">
-      <view class="menu-item menu-item-inx">组合组件</view>
-      <view class="menu-item">结果页</view>
-      <view class="menu-item">文字链</view>
-    </view>
-    <view class="menu">
-      <view class="menu-item menu-item-inx">组合范例页面</view>
-      <view class="menu-item">文档说明页面</view>
-      <view class="menu-item">图文文章</view>
-    </view>
-    <view class="menu">
-      <view class="menu-item menu-item-inx">安卓差异化板块</view>
+    <view class="menu" wx:for="{{menu_list}}" animation="{{menu.am_data}}" wx:for-item="menu">
+      <view id="{{menu.id}}" class="menu-item menu-item-inx {{menu.toggle_class}}" bindtap="toogleMenu">{{menu.name}}</view>
+      <view class="menu-item" wx:for="{{menu.sub_items}}" animation="{{item.am_data}}">{{item.name}}</view>
     </view>
   </view>
 </view>

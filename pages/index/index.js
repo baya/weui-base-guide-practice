@@ -1,26 +1,50 @@
+var menu = require('menu.js')
 //index.js
 //获取应用实例
+
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
-    userInfo: {}
+      menu_list: [
+          {
+            id: 'base-ctr-lib',
+            name: '基础控件库',
+            sub_items: [
+              {name: 'ICON'}, 
+              {name:'TOTAS'}, 
+              {name: 'BUTTON'},
+              {name: '输入'},
+              {name: '选择'},
+              {name: '弹框'},
+              {name: '列表'},
+              {name: '卡片'}
+              ]
+          },
+          {
+            id: 'com-lib',
+            name: '组合组件',
+            sub_items: [{name: '结果页'}, {name: '文字链'}, {name: '弹窗'}, {name: '搜索'}]
+          },
+          {
+            id: 'com-example-page',
+            name: '组合范例页面',
+            sub_items: [{name: '文档说明页面'}, {name: '图文文章'}]
+          },
+          {
+            id: 'android-diff-page',
+            name: '安卓差异化板块',
+            sub_items: [{name: '标题单行'}, {name: '单行列表'}]
+          }
+      ]
   },
-  //事件处理函数
-  bindViewTap: function() {
-    wx.navigateTo({
-      url: '../logs/logs'
-    })
+
+  onReady: function(){
+    this.$m = menu.setup(this, this.data.menu_list)
+    this.$m.closeMenus()
   },
-  onLoad: function () {
-    console.log('onLoad')
-    var that = this
-    //调用应用实例的方法获取全局数据
-    app.getUserInfo(function(userInfo){
-      //更新数据
-      that.setData({
-        userInfo:userInfo
-      })
-    })
+
+  toogleMenu: function(e){
+    var m = this.$m.getMenu( e.currentTarget.id )
+    this.$m.toogle( m)
   }
 })

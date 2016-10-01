@@ -8,7 +8,8 @@
 }
 .menu{
   background-color:#ffffff;
-  margin:13rpx;
+  margin:17rpx;
+  height: 100%;
 }
 
 .menu-item{
@@ -20,6 +21,9 @@
 }
 
 .menu-item-inx {
-  margin-bottom: 21rpx;
+  margin-bottom: 17rpx;
   border-bottom:none;
+  opacity: 0.4;
+  
 }
+
