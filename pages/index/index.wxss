@@ -8,7 +8,7 @@
 }
 .menu{
   background-color:#ffffff;
-  margin:17rpx;
+  margin:24rpx 17rpx;
   height: 100%;
 }
 
