@@ -16,7 +16,7 @@
   margin:5rpx 27rpx;
   padding-bottom:17rpx;
   height: 70rpx;
-  line-height:88rpx;
+  line-height:82rpx;
   text-align: justify;
   border-top: solid 1rpx #ececec;
 }
