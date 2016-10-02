@@ -2,8 +2,14 @@
 <view class="container">
   <view class="mc">
     <view class="menu" wx:for="{{menu_list}}" animation="{{menu.am_data}}" wx:for-item="menu">
-      <view id="{{menu.id}}" class="menu-item menu-item-inx {{menu.toggle_class}}" bindtap="toogleMenu">{{menu.name}}</view>
-      <view class="menu-item" wx:for="{{menu.sub_items}}" animation="{{item.am_data}}">{{item.name}}</view>
+      <view id="{{menu.id}}" class="menu-item menu-item-inx {{menu.toggle_class}}" bindtap="toogleMenu">
+      <text>{{menu.name}}</text>
+      <image class="menu-icon" src="{{menu.icon.src}}" mode="{{menu.icon.mode}}"></image>
+      </view>
+      <view class="menu-item" wx:for="{{menu.sub_items}}" animation="{{item.am_data}}">   
+      <text>{{item.name}}</text>
+      <view class="menu-sub-item-icon"></view>
+      </view>  
     </view>
   </view>
 </view>

@@ -12,13 +12,24 @@ function createAm(){
     })
 }
 
+function buildIcon(menu){
+    menu.icon = menu.icon || {}
+    if (menu.icon.src){
+        return
+    }
+    if (menu.icon.path){
+        menu.icon.src = '../..' + menu.icon.path
+    }
+}
+
 function setup(page, menu_list){
 
-  menu_list.forEach(function(item){
-      am_db[item.id] = createAm()
-      item.sub_items.forEach(function(sub_item){
+  menu_list.forEach(function(menu){
+      am_db[menu.id] = createAm()
+      menu.sub_items.forEach(function(sub_item){
           am_db[sub_item.name] = createAm()
       })
+      buildIcon(menu)
   })
 
   return {

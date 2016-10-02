@@ -24,6 +24,24 @@
   margin-bottom: 17rpx;
   border-bottom:none;
   opacity: 0.4;
-  
+}
+
+image.menu-icon {
+  width:37rpx;
+  height:37rpx;
+  float:right;
+  padding:13rpx;
+}
+
+.menu-sub-item-icon{
+  content: " ";
+  display: block;
+  height: 12rpx;
+  width: 12rpx;
+  border-width: 4rpx 4rpx 0 0;
+  border-color: #C8C8CD;
+  border-style: solid;
+  -webkit-transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
+  transform: matrix(0.71, 0.71, -0.71, 0.71, 0, 0);
 }
 
