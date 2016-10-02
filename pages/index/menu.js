@@ -1,7 +1,33 @@
 var am_count = 0;
 var am_db = {}
 var style = {
-    menuItemHeight: '57rpx'
+    menuItemHeight: '114rpx'
+}
+var subitem_db = {
+    'base-ctr-lib': [
+        { name: 'ICON' },
+        { name: 'TOTAS' },
+        { name: 'BUTTON' },
+        { name: '输入' },
+        { name: '选择' },
+        { name: '弹框' },
+        { name: '列表' },
+        { name: '卡片' }
+    ],
+    'com-lib': [
+        { name: '结果页' },
+        { name: '文字链' },
+        { name: '弹窗' },
+        { name: '搜索' }
+    ],
+    'com-example-page': [
+        { name: '文档说明页面' },
+        { name: '图文文章' }
+    ],
+    'android-diff-page': [
+        { name: '标题单行' },
+        { name: '单行列表' }
+    ]
 }
 
 function createAm(){
@@ -22,14 +48,19 @@ function buildIcon(menu){
     }
 }
 
+function buildSubItems(menu){
+  menu.sub_items = subitem_db[menu.id]
+}
+
 function setup(page, menu_list){
 
   menu_list.forEach(function(menu){
+      buildSubItems(menu)
+      buildIcon(menu)
       am_db[menu.id] = createAm()
       menu.sub_items.forEach(function(sub_item){
           am_db[sub_item.name] = createAm()
       })
-      buildIcon(menu)
   })
 
   return {
