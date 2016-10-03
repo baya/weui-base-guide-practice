@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-     "pages/base-ctr-lib/icon"
+     "pages/base-ctr-lib/icon/icon",
+     "pages/base-ctr-lib/toast/toast"
   ],
   "window":{
     "backgroundTextStyle":"light",

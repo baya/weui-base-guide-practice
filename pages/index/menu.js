@@ -5,8 +5,8 @@ var style = {
 }
 var subitem_db = {
     'base-ctr-lib': [
-        { name: '图标', nav_url: '../base-ctr-lib/icon' },
-        { name: '提示' },
+        { name: '图标', nav_url: '../base-ctr-lib/icon/icon' },
+        { name: '提示', nav_url: '../base-ctr-lib/toast/toast' },
         { name: '按钮' },
         { name: '输入' },
         { name: '选择' },

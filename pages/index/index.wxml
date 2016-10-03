@@ -7,7 +7,7 @@
       <image class="menu-icon" src="{{menu.icon.src}}" mode="{{menu.icon.mode}}"></image>
       </view>
       <view class="menu-item menu-sub-item msi-inx{{inx}}" wx:for="{{menu.sub_items}}" wx:for-index="inx" animation="{{item.am_data}}">
-      <navigator url="{{item.nav_url}}?title={{menu.name}}" hover-class="nav-hover">
+      <navigator url="{{item.nav_url}}?title={{item.name}}" hover-class="nav-hover">
         <text>{{item.name}}</text>
         <view class="menu-sub-item-icon"></view>
       </navigator>
