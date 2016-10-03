@@ -5,9 +5,9 @@ var style = {
 }
 var subitem_db = {
     'base-ctr-lib': [
-        { name: 'ICON' },
-        { name: 'TOTAS' },
-        { name: 'BUTTON' },
+        { name: '图标', nav_url: '../base-ctr-lib/icon' },
+        { name: '提示' },
+        { name: '按钮' },
         { name: '输入' },
         { name: '选择' },
         { name: '弹框' },

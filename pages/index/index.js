@@ -8,7 +8,7 @@ Page({
       menu_list: [
           {
             id: 'base-ctr-lib',
-            name: '基础控件库',
+            name: '基础控件',
             icon:{
               path: '/assets/images/icon_nav_form.png',
               mode: 'aspectFit'
@@ -45,7 +45,7 @@ Page({
       ]
   },
 
-  onShow: function(){
+  onReady: function(){
     this.$m = menu.setup(this, this.data.menu_list)
     this.$m.closeMenus()
   },

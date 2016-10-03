@@ -64,3 +64,7 @@ image.menu-icon {
   top: 50%;
 }
 
+.nav-hover{
+  opacity:0.4;
+}
+
