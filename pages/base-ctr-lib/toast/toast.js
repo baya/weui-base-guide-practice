@@ -13,8 +13,16 @@ Page({
             },
             modal2: {
                 hidden: true
+            },
+            toast1: {
+                hidden: true
+            },
+            toast2: {
+                hidden: true
+            },
+            loading: {
+                hidden: true
             }
-
         }
     },
 
@@ -55,8 +63,30 @@ Page({
 
     modal2Change: function(e){
         $com.change('modal2')
-    }
+    },
 
-    
+    toast1Tap: function(e){
+        $com.tap('toast1')
+    },
+
+    toast2Tap: function(e){
+        $com.tap('toast2')
+    },
+
+    toast1Change: function(e){
+        $com.change('toast1')
+    },
+
+    toast2Change: function(e){
+        $com.change('toast2')
+    },
+
+    loadingTap: function(e){
+        $com.tap('loading')
+    },
+
+    loadingChange: function(e){
+        $com.change('loading')
+    }
 
 })

@@ -18,6 +18,19 @@
                 <view> 内容可以插入节点 </view>
             </modal>
         </view>
+        <view class="msg-item">
+            <toast hidden="{{com.toast1.hidden}}" bindchange="toast1Change">
+                默认
+            </toast>
+            <toast hidden="{{com.toast2.hidden}}" duration="5000" bindchange="toast2Change">
+                设置 duration
+            </toast>
+        </view>
+        <view class="msg-item">
+            <loading hidden="{{com.loading.hidden}}" bindchange="loadingChange">
+                加载中...
+            </loading>
+        </view>
       </view>
       <view class="btn-area">
         <view class="a-row">
@@ -31,12 +44,12 @@
         </view>
         <view class="a-row">
           <text class='title'>toast: 消息提示框</text>
-          <button type="default" bindtap="modalTap">弹出默认 toast</button>
-          <button type="default" bindtap="modalTap2">弹出设置 duration 的 toast</button>
+          <button type="default" bindtap="toast1Tap">弹出默认 toast</button>
+          <button type="default" bindtap="toast2Tap">弹出设置 duration 的 toast</button>
         </view>
         <view class="a-row">
           <text class='title'>loading: 加载提示</text>
-          <button type="default" bindtap="modalTap">弹出 loading</button>
+          <button type="default" bindtap="loadingTap">弹出 loading</button>
         </view>
       </view>
     </view>
