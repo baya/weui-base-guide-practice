@@ -1,0 +1,36 @@
+<view class="container">
+    <view class="main">
+        <view class="content">
+            <view class="res-area">
+                <button size="{{btnSize}}" type="{{btnType}}" plain="{{btnPlain}}" loading="{{btnLoading}}" 
+                        disabled="{{btnDisabled}}" hover-class="{{btnHoverClass}}" bindtap="default" hover-class="other-button-hover"> 我是按钮 </button>
+            </view>
+            <view class="op-area">
+                <view class="table">
+                    <view class="tr theader">
+                        <block wx:for="{{table.header.items}}" wx:for-index="idx">
+                            <block wx:if="{{idx == table.header.items.length - 1}}">
+                              <text class="aright">{{item}}</text>
+                            </block>
+                            <block wx:else>
+                              <text>{{item}}</text>
+                            </block>
+                        </block>
+                    </view>
+                    <block wx:for="{{table.body.rows}}" wx:for-item="row">
+                        <view class="tr">
+                            <block wx:for="{{row.items}}" wx:for-item="item">
+                                <text>{{item}}</text>
+                            </block>
+                            <picker class="aright" bindchange="bindPickerChange" value="{{row.picker.index}}" range="{{row.picker.array}}">
+                                <view class="picker">
+                                    {{row.picker.array[row.picker.index]}}
+                                </view>
+                            </picker>
+                        </view>
+                    </block>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

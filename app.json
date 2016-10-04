@@ -2,7 +2,8 @@
   "pages":[
     "pages/index/index",
      "pages/base-ctr-lib/icon/icon",
-     "pages/base-ctr-lib/toast/toast"
+     "pages/base-ctr-lib/toast/toast",
+     "pages/base-ctr-lib/button/button"
   ],
   "window":{
     "backgroundTextStyle":"light",

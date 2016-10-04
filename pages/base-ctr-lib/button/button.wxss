@@ -1,0 +1,52 @@
+.container {
+    background:#ffffff;
+}
+
+.main {
+    padding:16rpx;
+}
+
+.content{
+    margin:20rpx 40rpx;
+}
+
+.op-area{
+    margin-top: 70rpx;
+    font-size: 28rpx;
+}
+
+.table {
+    display:flex;
+    flex-flow:column nowrap;
+}
+
+.tr {
+    display:flex;
+    justify-content:space-between;
+    padding:14rpx;
+    border-bottom: 2rpx solid #e7e7eb;
+}
+
+.theader{
+   background-color:#f6f8f9;
+   border-bottom:none;
+}
+
+text {
+    display:inline-block;
+    width:100%;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.aright{
+    text-align:right;
+}
+
+picker{
+    display:inline-block;
+    width:100%;
+    order:1;
+flex: flex-grow;
+flex-grow: 5;
+}
