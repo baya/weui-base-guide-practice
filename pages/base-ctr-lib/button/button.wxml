@@ -3,7 +3,7 @@
         <view class="content">
             <view class="res-area">
                 <button size="{{btnSize}}" type="{{btnType}}" plain="{{btnPlain}}" loading="{{btnLoading}}" 
-                        disabled="{{btnDisabled}}" hover-class="{{btnHoverClass}}" bindtap="default" hover-class="other-button-hover"> 我是按钮 </button>
+                        disabled="{{btnDisabled}}" hover-class="{{btnHoverClass}}"> 我是按钮 </button>
             </view>
             <view class="op-area">
                 <view class="table">
@@ -22,7 +22,7 @@
                             <block wx:for="{{row.items}}" wx:for-item="item">
                                 <text>{{item}}</text>
                             </block>
-                            <picker class="aright" bindchange="bindPickerChange" value="{{row.picker.index}}" range="{{row.picker.array}}">
+                            <picker class="aright" bindchange="bindPickerChange" value="{{row.picker.index}}" data-picker-kind="{{row.items[0]}}" range="{{row.picker.array}}">
                                 <view class="picker">
                                     {{row.picker.array[row.picker.index]}}
                                 </view>
