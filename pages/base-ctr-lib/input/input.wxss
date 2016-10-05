@@ -63,7 +63,7 @@
 
 .section-text {
     display: block;
-    height: 116rpx;
+    height: 100rpx;
 }
 
 
