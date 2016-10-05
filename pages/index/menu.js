@@ -8,7 +8,7 @@ var subitem_db = {
         { name: '图标', nav_url: '../base-ctr-lib/icon/icon' },
         { name: '提示', nav_url: '../base-ctr-lib/toast/toast' },
         { name: '按钮', nav_url: '../base-ctr-lib/button/button' },
-        { name: '输入' },
+        { name: '输入', nav_url: '../base-ctr-lib/input/input' },
         { name: '选择' },
         { name: '弹框' },
         { name: '列表' },

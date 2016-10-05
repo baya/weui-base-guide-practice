@@ -1,0 +1,39 @@
+.container{
+  background-color: #f8f8f8;
+}
+
+.main {
+    margin:37rpx;
+}
+
+.section {
+    background-color:#ffffff;
+    padding:16rpx 20rpx;
+    font-size:34rpx;
+    display:flex;
+    height:56rpx;
+    line-height: 56rpx;
+    border-bottom: 2rpx solid #e7e7eb;
+}
+
+.section-title {
+    display: inline-block;
+    text-align: left;
+    margin-right:10rpx;
+    min-width: 170rpx;
+}
+
+.section-group {
+    margin-bottom:40rpx;
+}
+
+
+.ph-text {
+    opacity: 0.4;
+}
+
+.nth-last{
+    border:none;
+}
+
+

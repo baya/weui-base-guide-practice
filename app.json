@@ -3,7 +3,8 @@
     "pages/index/index",
      "pages/base-ctr-lib/icon/icon",
      "pages/base-ctr-lib/toast/toast",
-     "pages/base-ctr-lib/button/button"
+     "pages/base-ctr-lib/button/button",
+     "pages/base-ctr-lib/input/input"
   ],
   "window":{
     "backgroundTextStyle":"light",
