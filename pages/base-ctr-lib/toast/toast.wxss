@@ -24,7 +24,7 @@
     display:inline-block;
     padding: 7rpx;
     opacity: .4;
-    font-size:28rpx;
+    font-size:26rpx;
 }
 
 button {
