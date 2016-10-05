@@ -26,7 +26,7 @@ Page({
           },
           {
             id: 'com-example-page',
-            name: '组合范例页面',
+            name: '组合范例',
              icon:{
               path: '/assets/images/icon_nav_feedback.png',
               mode: 'aspectFit'
@@ -35,7 +35,7 @@ Page({
           },
           {
             id: 'android-diff-page',
-            name: '安卓差异化板块',
+            name: '安卓差异',
              icon:{
               path: '/assets/images/icon_nav_z-index.png',
               mode: 'aspectFit'
