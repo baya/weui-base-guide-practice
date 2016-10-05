@@ -25,6 +25,26 @@ Page( {
                         name: 'type',
                         items: [ 'type', 'String', 'default' ],
                         picker: { index: 0, array: [ 'default', 'primary', 'warn' ] }
+                    },
+                    {
+                        name: 'plain',
+                        items: ['plain', 'Boolean', false],
+                        picker: {index: 0, array: [false, true]}
+                    },
+                    {
+                        name: 'disabled',
+                        items: ['disabled', 'Boolean', false],
+                        picker: {index: 0, array: [false, true]}
+                    },
+                    {
+                        name: 'loading',
+                        items: ['loading', 'Boolean', false],
+                        picker: {index: 0, array: [false, true]}
+                    },
+                    {
+                        name: 'hover-class',
+                        items: ['hover-class', 'String', 'button-hover'],
+                        picker: {index: 0, array: ['button-hover', 'none']}
                     }
                 ]
             }

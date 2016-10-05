@@ -36,21 +36,16 @@
    border-bottom:none;
 }
 
-text {
-    display:inline-block;
-    width:100%;
-    text-align: left;
-    flex-grow: 1;
+.td {
+  display:inline-block;
+  width:100%;
+  padding:10rpx;
 }
 
-.aright{
-    text-align:right;
-}
+
 
 picker{
     display:inline-block;
     width:100%;
     order:1;
-flex: flex-grow;
-flex-grow: 5;
 }
