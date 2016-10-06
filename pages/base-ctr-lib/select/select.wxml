@@ -1,0 +1,67 @@
+<view class="container">
+    <view class="main">
+        <view class="content">
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp nth-last">
+                        <text>单行列表</text>
+                        <view class="more">
+                            <text class="more-text">详细信息</text>
+                            <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp nth-last">
+                        <text>单行列表</text>
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp d-section-wrp nth-last">
+                        <view class="d-list-label">
+                            <text>双行列表</text>
+                            <text class="sub-text">描述信息</text>
+                        </view>
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp">
+                        <text>多行列表</text>
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp">
+                    <text>多行列表</text>
+                    <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp nth-last">
+                    <text>多行列表</text>
+                    <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+            </view> 
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp nth-last">
+                        <view class="img-title-item">
+                            <image class="blank_rect_png" src="{{blank_rect_png.src}}"></image>
+                            <text class="img-title-text">文字标题</text>
+                        </view>
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+            </view>           
+        </view>
+    </view>
+</view>
