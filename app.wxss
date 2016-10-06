@@ -7,5 +7,6 @@
   justify-content: space-between;
   padding: 27rpx 0;
   box-sizing: border-box;
-   background-color: #f8f8f8;
+  background-color: #f8f8f8;
+  overflow: scroll;
 } 

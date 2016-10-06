@@ -1,6 +1,7 @@
 .container{
   background-color: #f4f4f4;
   height: 100%;
+  overflow: scroll;
 }
 
 .main {
@@ -131,3 +132,16 @@ text.tel-number-prefix {
     padding:0 30rpx 0 0;
 }
 
+.label {
+    min-width:154rpx;
+}
+
+picker{
+    width: 100%;
+}
+
+.picker-pad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -33,19 +33,19 @@
             </view>
             <view class="section-group">
                 <view class="section">
-                    <view class="section-wrp">
+                    <view class="section-wrp s-section-wrp">
                         <text>多行列表</text>
                         <image class="section-chevron" src="{{chevron_png.src}}"></image>
                     </view>
                 </view>
                 <view class="section">
-                    <view class="section-wrp">
+                    <view class="section-wrp s-section-wrp">
                     <text>多行列表</text>
                     <image class="section-chevron" src="{{chevron_png.src}}"></image>
                     </view>
                 </view>
                 <view class="section">
-                    <view class="section-wrp nth-last">
+                    <view class="section-wrp s-section-wrp nth-last">
                     <text>多行列表</text>
                     <image class="section-chevron" src="{{chevron_png.src}}"></image>
                     </view>
@@ -65,29 +65,36 @@
             <view class="section-group">
                 <view class="section">
                     <view class="section-wrp s-section-wrp">
-                        <view class="img-title-item">
-                            <text>国家/地区</text>
-                            <picker mode="selector" bindchange="{{country.change}}" value="{{country.index}}" range="{{country.array}}">
+                        <text class="label">国家/地区</text>                                  
+                        <picker mode="selector" bindchange="{{country.change}}" value="{{country.index}}" range="{{country.array}}">
+                            <view class="picker-pad">
                                 <input type="text" value="{{country.picked_country}}" />
-                            </picker>       
-                        </view>
-                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
-                    </view>
-                    <view class="section">
-                        <view class="section-wrp fs tel-number-section-wrp">
-                            <text class="tel-number-prefix">+ 86</text>
-                            <input placeholder="请填写手机号码" placeholder-class="ph-text" type="number" />
-                        </view>
-                    </view>
-                    <view class="section">
-                        <view class="section-wrp fs nth-last">
-                            <text>选项</text>
-                            <input placeholder="Wording 可配置" placeholder-class="ph-text" type="text" />
-                        </view>
+                                <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                            </view>
+                        </picker>     
                     </view>
                 </view>
-            </view>              
+                <view class="section">
+                    <view class="section-wrp fs tel-number-section-wrp">
+                        <text class="tel-number-prefix">+ 86</text>
+                        <input placeholder="请填写手机号码" placeholder-class="ph-text" type="number" />
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp fs s-section-wrp nth-last">
+                        <text>选项</text>
+                        <input placeholder="Wording 可配置" placeholder-class="ph-text" type="text" />
+                    </view>
+                </view>
+            </view>
+             <view class="section-group">
+                <view wx:for="{{checkRows}}" class="section" wx:for-item="row">
+                    <view class="section-wrp s-section-wrp" bindtap="bindCheckChange" data-check-id="{{row.id}}" >
+                        <text>单选项</text>
+                        <icon type='success_no_circle' size="13" style="{{row.checkStyle}}" />
+                    </view>
+                </view>
+            </view>               
         </view>
-    </view>
-    
+    </view>  
 </view>
