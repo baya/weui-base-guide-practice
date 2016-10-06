@@ -4,7 +4,8 @@
      "pages/base-ctr-lib/icon/icon",
      "pages/base-ctr-lib/toast/toast",
      "pages/base-ctr-lib/button/button",
-     "pages/base-ctr-lib/input/input"
+     "pages/base-ctr-lib/input/input",
+     "pages/base-ctr-lib/select/select"
   ],
   "window":{
     "backgroundTextStyle":"light",

@@ -9,7 +9,13 @@ Page({
             'cancel',
             'download',
             'search',
-            'clear'
+            'clear',
+            'safe_success',
+            'safe_warn',
+            'success_circle',
+            'waiting_circle',
+            'circle',
+            'info_circle'
         ]
     },
     onLoad: function(options){
