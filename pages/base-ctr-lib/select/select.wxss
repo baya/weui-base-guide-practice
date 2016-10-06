@@ -1,9 +1,16 @@
 .container{
   background-color: #f4f4f4;
+  height: 100%;
 }
 
 .main {
     margin:37rpx;
+}
+
+.footer{
+    height: 40rpx;
+    width: 100%;
+    background-color: #f4f4f4;
 }
 
 .section-hide {
@@ -76,6 +83,10 @@
     border:none;
 }
 
+.section-group.nth-last{
+    margin-bottom: 0;
+}
+
 .blank_rect_png {
     width:58rpx;
     height: 58rpx;
@@ -91,4 +102,32 @@
     margin-left: 20rpx;
 }
 
+.ph-text {
+    opacity: 0.4;
+}
+
+.section-wrp.fs{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.section-wrp.fs text {
+    display: inline-block;
+    min-width:154rpx;
+}
+
+text.tel-number-prefix {
+    border-right: 1rpx solid #e7e7eb;
+    height: 88rpx;
+    line-height: 88rpx;
+}
+
+.section-wrp input {
+    margin-left: 30rpx;
+    line-height: 52rpx;
+}
+
+.tel-number-section-wrp {
+    padding:0 30rpx 0 0;
+}
 
