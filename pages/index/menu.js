@@ -10,9 +10,9 @@ var subitem_db = {
         { name: '按钮', nav_url: '../base-ctr-lib/button/button' },
         { name: '输入', nav_url: '../base-ctr-lib/input/input' },
         { name: '选择', nav_url: '../base-ctr-lib/select/select' },
-        { name: '弹框' },
-        { name: '列表' },
-        { name: '卡片' }
+        { name: '列表', nav_url: '../base-ctr-lib/list/list' },
+        { name: '卡片' },
+        { name: '弹框' } 
     ],
     'com-lib': [
         { name: '结果页' },
