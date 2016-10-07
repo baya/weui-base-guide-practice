@@ -104,11 +104,19 @@
                 </view>
             </view>
             <view class="section-group">
-                <view wx:for="{{multCheckRows}}" class="section" wx:for-item="row">
+                <view wx:for="{{multCheckRows}}" class="section" wx:for-item="row" wx:for-index="idx">
+                    <block wx:if="{{idx == multCheckRows.length - 1}}" >
+                    <view class="section-wrp s-section-wrp fs nth-last" bindtap="bindMultCheckChange" data-check-id="{{row.id}}" >
+                        <icon type="{{row.icon_type}}" size="23" />
+                        <text class="flex-start-text">多选项</text>
+                    </view>
+                    </block>
+                    <block wx:else>
                     <view class="section-wrp s-section-wrp fs" bindtap="bindMultCheckChange" data-check-id="{{row.id}}" >
                         <icon type="{{row.icon_type}}" size="23" />
                         <text class="flex-start-text">多选项</text>
                     </view>
+                    </block>
                 </view>
             </view>               
         </view>
