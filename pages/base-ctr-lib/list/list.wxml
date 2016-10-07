@@ -2,6 +2,35 @@
     <view class="main">
         <view class="content">
             <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp">
+                        <text class="sub">图文列表</text>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp list-section-wrp nth-last">
+                        <view class="list-item-label">
+                            <image src="{{rectangle_png.src}}"></image>
+                        </view>
+                        <view class="list-item-content nth-last">
+                            <text class="title">标题</text>
+                            <text class="sub">{{content}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+              <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp list-section-wrp nth-last">
+                        <view class="list-item-label">
+                            <image src="{{rectangle_png.src}}"></image>
+                        </view>
+                        <view class="list-item-content">
+                            <text class="title">标题</text>
+                            <text class="sub">{{content}}</text>
+                        </view>
+                    </view>
+                </view>
             </view>
         </view>
     </view>

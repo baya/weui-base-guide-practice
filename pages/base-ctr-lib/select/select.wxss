@@ -8,20 +8,8 @@
     margin:37rpx;
 }
 
-.footer{
-    height: 40rpx;
-    width: 100%;
-    background-color: #f4f4f4;
-}
 
-.section-hide {
-    background-color:#ffffff;
-    font-size:34rpx;
-    padding:28rpx 30rpx;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-}
+
 
 .section {
     background-color:#ffffff;
