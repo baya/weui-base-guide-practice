@@ -145,3 +145,7 @@ picker{
     justify-content: space-between;
     align-items: center;
 }
+
+.flex-start-text {
+    margin-left: 20rpx;
+}

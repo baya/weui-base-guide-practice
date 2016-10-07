@@ -94,6 +94,22 @@
                         <icon type='success_no_circle' size="13" style="{{row.checkStyle}}" />
                     </view>
                 </view>
+            </view>
+            <view class="section-group">
+                <view wx:for="{{switchers}}" wx:for-item="item" class="section">
+                    <view class="section-wrp s-section-wrp">
+                        <text>{{item.label}}</text>
+                        <switch checked="{{item.checked}}" bindchange="{{item.bindchange}}" data-id="{{item.id}}" />
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view wx:for="{{multCheckRows}}" class="section" wx:for-item="row">
+                    <view class="section-wrp s-section-wrp fs" bindtap="bindMultCheckChange" data-check-id="{{row.id}}" >
+                        <icon type="{{row.icon_type}}" size="23" />
+                        <text class="flex-start-text">多选项</text>
+                    </view>
+                </view>
             </view>               
         </view>
     </view>  
