@@ -32,6 +32,31 @@
                     </view>
                 </view>
             </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp">
+                        <text class="sub">文字列表</text>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp list-section-wrp nth-last">
+                        <view class="list-item-content list-item-only-word">
+                            <text class="title">标题</text>
+                            <text class="sub">{{content}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp list-section-wrp nth-last">
+                        <view class="list-item-content list-item-only-word">
+                            <text class="title">标题</text>
+                            <text class="sub">{{content}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
         </view>
     </view>
 </view>
