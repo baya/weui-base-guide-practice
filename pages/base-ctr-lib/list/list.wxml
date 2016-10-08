@@ -57,6 +57,29 @@
                     </view>
                 </view>
             </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp">
+                        <text class="sub">文字组合列表</text>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp list-section-wrp">
+                        <view class="list-item-content list-item-only-word">
+                            <text class="title">标题一</text>
+                            <text class="sub">{{content}}</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp list-section-wrp nth-last">
+                        <view class="list-item-content list-item-only-word">
+                            <text class="title">标题二</text>
+                            <text class="sub">{{content2}}</text>
+                        </view>
+                    </view>
+                </view>
+            </view>
         </view>
     </view>
 </view>
