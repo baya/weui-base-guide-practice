@@ -8,9 +8,6 @@
     margin:37rpx;
 }
 
-
-
-
 .section {
     background-color:#ffffff;
 }
@@ -137,4 +134,6 @@ picker{
 .flex-start-text {
     margin-left: 20rpx;
 }
+
+
 
