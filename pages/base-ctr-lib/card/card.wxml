@@ -1,0 +1,23 @@
+<view class="container">
+    <view class="main">
+        <view class="content">
+            <view class="row split">
+                <view class="row-main top">
+                    <image class="big-rect-img" src="{{big_rect_png.src}}"></image>
+                </view>
+            </view>
+            <view class="row split">
+                <view class="row-main list">
+                    <text>可以是单行</text>
+                    <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                </view>
+            </view>
+            <view class="row split">
+                <view class="row-main list">
+                    <text class="long">{{content}}</text>
+                    <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>

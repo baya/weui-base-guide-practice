@@ -11,7 +11,7 @@ var subitem_db = {
         { name: '输入', nav_url: '../base-ctr-lib/input/input' },
         { name: '选择', nav_url: '../base-ctr-lib/select/select' },
         { name: '列表', nav_url: '../base-ctr-lib/list/list' },
-        { name: '卡片' },
+        { name: '卡片', nav_url: '../base-ctr-lib/card/card' },
         { name: '弹框' } 
     ],
     'com-lib': [
