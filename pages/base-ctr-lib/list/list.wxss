@@ -224,3 +224,46 @@ text.more-link {
     justify-content: space-between;
     align-items:center;
 }
+
+.s-list-section-wrp {
+    padding-top:27rpx;
+    padding-bottom:27rpx;
+}
+
+.detail {
+    font-size: 34rpx;
+    color:#888888;
+}
+
+.small-list-section-wrap {
+    padding-top: 15rpx;
+    padding-bottom: 15rpx;
+}
+
+image.small-rect {
+    width:58rpx;
+    height: 58rpx;
+}
+
+.small-list-item-label {
+    display: flex;
+    align-items: center;
+}
+
+.small-list-item-label .title {
+    margin-left: 20rpx;
+}
+
+.assist {
+    color: #888888;
+}
+
+.lr-list-section-wrap {
+    padding-top: 26rpx;
+    padding-bottom: 26rpx;
+}
+
+.assist .section-chevron {
+    margin-left: 30rpx;
+}
+

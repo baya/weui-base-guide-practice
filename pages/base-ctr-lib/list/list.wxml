@@ -217,5 +217,35 @@
                     </view>
                 </view>
             </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-list-section-wrp nth-last">
+                        <text>单行列表</text>
+                        <text class="detail">详细信息</text>
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp">
+                        <text class="sub">左右文字组合列表</text>
+                    </view>
+                </view>
+                <view wx:for="{{[1,2,3]}}" class="section">
+                    <view class="section-wrp list-section-wrp lr-list-section-wrap">                   
+                        <text class="title">文字标题</text>
+                        <view class="assist">
+                            <text>内容</text>
+                            <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                        </view>
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp list-section-wrp lr-list-section-wrap">                   
+                        <text class="title">查看更多</text>
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+            </view>
     </view>
 </view>
