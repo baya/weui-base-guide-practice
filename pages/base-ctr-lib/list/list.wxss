@@ -267,3 +267,8 @@ image.small-rect {
     margin-left: 30rpx;
 }
 
+.link-more {
+    color:#586C94;
+    font-size: 28rpx;
+}
+

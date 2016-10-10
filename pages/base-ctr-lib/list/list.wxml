@@ -242,7 +242,26 @@
                 </view>
                 <view class="section">
                     <view class="section-wrp list-section-wrp lr-list-section-wrap">                   
-                        <text class="title">查看更多</text>
+                        <text class="link-more">查看更多</text>
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+            </view>
+            <view class="section-group">
+                <view class="section">
+                    <view class="section-wrp s-section-wrp">
+                        <text class="sub">单行文字列表</text>
+                    </view>
+                </view>
+                <view wx:for="{{[1,2,3]}}" class="section">
+                    <view class="section-wrp list-section-wrp lr-list-section-wrap">                   
+                        <text class="title">文字标题</text>                       
+                        <image class="section-chevron" src="{{chevron_png.src}}"></image>                       
+                    </view>
+                </view>
+                <view class="section">
+                    <view class="section-wrp list-section-wrp lr-list-section-wrap">                   
+                        <text class="link-more">查看更多</text>
                         <image class="section-chevron" src="{{chevron_png.src}}"></image>
                     </view>
                 </view>
