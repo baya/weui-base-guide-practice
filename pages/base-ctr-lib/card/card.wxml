@@ -1,23 +1,48 @@
 <view class="container">
     <view class="main">
         <view class="content">
-            <view class="row split">
-                <view class="row-main top">
-                    <image class="big-rect-img" src="{{big_rect_png.src}}"></image>
+            <view class="section">
+            <view class="row split card-text-type">
+                    <view class="row-main">
+                        <view class="flex-col">
+                            <text class="main-title">卡片标题</text>
+                            <text class="sub">副标题非必填</text>
+                        </view>
+                        <image class="row-chevron" src="{{chevron_png.src}}"></image>
+                    </view>
+                </view>
+                </view>
+                <view class="section">
+                    <view class="row split card-text-type">
+                        <view class="row-main">
+                            <image class="card-icon"></image>
+                            <view class="flex-col">
+                                <text class="little-title">小标题</text>
+                                <text class="big-content">100元代金券</text>
+                            </view>
+                            <image class="row-chevron" src="{{chevron_png.src}}"></image>
+                        </view>
+                    </view>
+                </view>
+                <view class="section">
+                <view class="row split">
+                    <view class="row-main top">
+                        <image class="big-rect-img" src="{{big_rect_png.src}}"></image>
+                    </view>
+                </view>
+                <view class="row split">
+                    <view class="row-main list">
+                        <text>可以是单行</text>
+                        <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                    </view>
+                </view>
+                <view class="row split">
+                    <view class="row-main list">
+                        <text class="long">{{content}}</text>
+                        <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                    </view>
                 </view>
             </view>
-            <view class="row split">
-                <view class="row-main list">
-                    <text>可以是单行</text>
-                    <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
-                </view>
             </view>
-            <view class="row split">
-                <view class="row-main list">
-                    <text class="long">{{content}}</text>
-                    <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
-                </view>
-            </view>
-        </view>
     </view>
 </view>

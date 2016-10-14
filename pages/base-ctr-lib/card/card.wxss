@@ -1,5 +1,5 @@
 .container{
-  background-color: #ffffff;
+  background-color: #f4f4f4;
   height: 100%;
   overflow: scroll;
 }
@@ -38,6 +38,11 @@
     border-bottom: 2rpx solid #E5E5E5;
 }
 
+.section {
+    margin-bottom: 20rpx;
+    background-color: #ffffff;
+}
+
 
 .big-rect-img {
     width:100%;
@@ -47,4 +52,32 @@
 .small-rect-img {
     width: 104rpx;
     height: 104rpx;
+}
+
+.row-chevron {
+    width: 16rpx;
+    height: 25rpx;
+}
+
+.flex-col {
+    display: flex;
+    flex-flow: column;
+}
+
+.section .row:last-child {
+    border: none;
+}
+
+.sub {
+    font-size:26rpx;
+    color:#888888;
+}
+
+.flex-col .main-title {
+    margin-bottom: 13rpx;
+}
+
+.row.card-text-type {
+    padding-top:45rpx;
+    padding-bottom:45rpx;
 }

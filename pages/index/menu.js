@@ -32,7 +32,7 @@ var subitem_db = {
 
 function createAm(){
     am_count += 1;
-    return res = wx.createAnimation({
+    return wx.createAnimation({
         duration:170,
         timingFunction: "linear"
     })
@@ -74,7 +74,7 @@ function setup(page, menu_list){
     amStep: function(menu, af){
       var sub_items = menu.sub_items
       sub_items.forEach(function(item){
-          am = am_db[ item.name ]
+          var am = am_db[ item.name ]
           af(am)
           am.step()
           item.am_data = am.export()

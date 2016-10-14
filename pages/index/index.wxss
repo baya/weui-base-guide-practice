@@ -1,6 +1,7 @@
 /**index.wxss**/
 .container{
   background-color: #f4f4f4;
+  height: 100%;
 }
 .mc{
   font-size:17px;
