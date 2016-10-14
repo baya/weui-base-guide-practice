@@ -2,7 +2,7 @@
     <view class="main">
         <view class="content">
             <view class="section">
-            <view class="row split card-text-type">
+            <view class="row split card1 card-text-type">
                     <view class="row-main">
                         <view class="flex-col">
                             <text class="main-title">卡片标题</text>
@@ -13,7 +13,7 @@
                 </view>
                 </view>
                 <view class="section">
-                    <view class="row split card-text-icon-type">
+                    <view class="row split card1 card-text-icon-type">
                         <view class="row-main">
                             <view class="flex-row">
                                 <image src="{{starbak_png.src}}" class="card-icon"></image>
@@ -27,7 +27,7 @@
                     </view>
                 </view>
                 <view class="section">
-                    <view class="row split card-text-icon-source-type">
+                    <view class="row split card2 card-text-icon-source-type">
                         <view class="row-main">
                             <view class="flex-row">
                                 <image src="{{starbak_png.src}}" class="card-icon"></image>
