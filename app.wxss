@@ -11,7 +11,7 @@ page {
   padding: 27rpx 0;
   box-sizing: border-box;
   background-color: #f8f8f8;
-  overflow: visible !important;
+  overflow: visible;
 } 
 
 .section-group .section:last-child .section-wrp{
