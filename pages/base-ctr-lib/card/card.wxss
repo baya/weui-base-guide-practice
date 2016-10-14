@@ -1,7 +1,7 @@
 .container{
   background-color: #f4f4f4;
   height: 100%;
-  overflow: scroll;
+  overflow: visible;
 }
 
 .main {
@@ -39,7 +39,7 @@
 }
 
 .section {
-    margin-bottom: 20rpx;
+    margin-bottom: 50rpx;
     background-color: #ffffff;
 }
 
@@ -74,10 +74,67 @@
 }
 
 .flex-col .main-title {
-    margin-bottom: 13rpx;
+    margin-bottom: 25rpx;
+}
+
+.row {
+    padding-top:45rpx;
+    padding-bottom:45rpx;
 }
 
 .row.card-text-type {
-    padding-top:45rpx;
-    padding-bottom:45rpx;
+    padding-top: 38rpx;
+    padding-bottom: 38rpx;
+}
+
+
+.card-icon {
+    width: 84rpx;
+    height: 84rpx;
+}
+
+.flex-row {
+    display: flex;
+    flex: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.little-title {
+    font-size:26rpx;
+    color:#555555;
+}
+
+.big-content {
+    font-size:50rpx;
+    margin-top: 16rpx;
+}
+
+.card-content {
+    margin-left: 30rpx;
+}
+
+.card-footer {
+    font-size:26rpx;
+    color:#888888;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 144rpx;
+    line-height: 37rpx;
+    padding-top: 17rpx;
+    padding-bottom: 17rpx;
+    border-top: 2rpx dashed  #cfcfcf;
+    margin-top: 35rpx;
+    padding-right: 39rpx;
+}
+
+.card-text-icon-source-type {
+    display: flex;
+    flex-flow: column nowrap;
+    padding-bottom: 0;
+}
+
+.row.card-img-big-detail-type {
+    padding-top: 0;
 }

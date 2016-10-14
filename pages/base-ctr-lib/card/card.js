@@ -6,6 +6,7 @@ Page({
         rectangle_png: {src: $image_path + "rectangle.png"},
         loading_png: {src: $image_path + "loading.png"},
         big_rect_png: {src: $image_path + "big_rect.png"},
+        starbak_png: {src: $image_path + "starbak.png"},
         default_avatar1x_png: {src: $image_path + "default_avatar1x.png"},
         default_avatar2x_png: {src: $image_path + "default_avatar2x.png"},
         default_avatar3x_png: {src: $image_path + "default_avatar3x.png"},
