@@ -14,3 +14,37 @@
 .section-group .section:last-child .section-wrp{
     border-bottom: none;
 }
+
+.tf-size-20 {
+  font-size:40rpx;
+}
+
+.tf-size-18 {
+  font-size:36rpx;
+}
+
+.tf-size-17 {
+  font-size: 34rpx;
+}
+
+.tf-size-16 {
+  font-size: 32rpx;
+}
+
+.tf-size-14 {
+  font-size: 28rpx;
+}
+
+.tf-size-13 {
+  font-size:26rpx;
+}
+
+.tf-size-11 {
+  font-size:22rpx;
+}
+
+.img-sm {
+  width:32rpx;
+  height: 32rpx;
+}
+

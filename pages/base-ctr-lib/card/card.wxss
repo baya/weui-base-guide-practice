@@ -142,3 +142,7 @@
 .row.card-img-big-detail-type {
     padding-top: 0;
 }
+
+.row-md {
+    height: 90rpx;
+}

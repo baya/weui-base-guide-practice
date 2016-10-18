@@ -45,24 +45,45 @@
                     </view>
                 </view>
                 <view class="section">
-                <view class="row split card-img-big-detail-type">
-                    <view class="row-main top">
-                        <image class="big-rect-img" src="{{big_rect_png.src}}"></image>
+                    <view class="row split card-img-big-detail-type">
+                        <view class="row-main top">
+                            <image class="big-rect-img" src="{{big_rect_png.src}}"></image>
+                        </view>
+                    </view>
+                    <view class="row split">
+                        <view class="row-main list">
+                            <text>可以是单行</text>
+                            <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                        </view>
+                    </view>
+                    <view class="row split">
+                        <view class="row-main list">
+                            <text class="long">{{content}}</text>
+                            <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                        </view>
                     </view>
                 </view>
-                <view class="row split">
-                    <view class="row-main list">
-                        <text>可以是单行</text>
-                        <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                <view class="section">
+                    <view class="row split card-img-big-detail-type">
+                        <view class="row-main top">
+                            <image class="big-rect-img" src="{{big_rect_png.src}}"></image>
+                        </view>
+                    </view>
+                    <view class="row split">
+                        <view class="row-main row-md">
+                            <text class='tf-size-16'>查看详情</text>
+                            <image class="row-chevron" src="{{chevron_png.src}}"></image>
+                        </view>
                     </view>
                 </view>
-                <view class="row split">
-                    <view class="row-main list">
-                        <text class="long">{{content}}</text>
-                        <image class="small-rect-img" src="{{rectangle_png.src}}"></image>
+                <view class="section">
+                    <view class="row split">
+                        <view class="row-main row-md">
+                            <text class='tf-size-16'>查看详情</text>
+                            <image class="img-sm" src="{{detail_disclosure_png.src}}"></image>
+                        </view>
                     </view>
                 </view>
-            </view>
-            </view>
+        </view>
     </view>
 </view>

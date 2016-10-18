@@ -12,7 +12,7 @@ var subitem_db = {
         { name: '选择', nav_url: '../base-ctr-lib/select/select' },
         { name: '列表', nav_url: '../base-ctr-lib/list/list' },
         { name: '卡片', nav_url: '../base-ctr-lib/card/card' },
-        { name: '弹框' } 
+        { name: '弹框', nav_url: '../base-ctr-lib/popup/popup' } 
     ],
     'com-lib': [
         { name: '结果页' },
