@@ -19,3 +19,9 @@
     flex-wrap: wrap;
     font-size: 30rpx;
 }
+
+.blank-rect {
+    width:490rpx;
+    height: 327rpx;
+    margin-bottom: 40rpx;
+}

@@ -7,6 +7,7 @@ Page({
         loading_png: {src: $image_path + "loading.png"},
         big_rect_png: {src: $image_path + "big_rect.png"},
         starbak_png: {src: $image_path + "starbak.png"},
+        blank_rect_png: {src: $image_path + "blank_rect.png"},
         detail_disclosure_png: {src: $image_path + "detail_disclosure.png"},
         default_avatar1x_png: {src: $image_path + "default_avatar1x.png"},
         default_avatar2x_png: {src: $image_path + "default_avatar2x.png"},
@@ -25,6 +26,14 @@ Page({
             no_cancel: true,
             change: 'modal2Change',
             content_text: '告知当前状态，信息和解决方案，文字换行的情况。'
+        },
+         modal3: {
+            title: '标题',
+            confirm_text: '知道了',
+            hidden: true,
+            no_cancel: true,
+            change: 'modal3Change',
+            content_text: '描述内容，最好不超过一行'
         },
         modal4: {
             title: '普通弹框',
@@ -102,5 +111,17 @@ Page({
         var modal = this.data.modal5
         modal.hidden = true
         this.setData({modal5: modal})
+    },
+
+     modalTap3: function(e) {
+        var modal = this.data.modal3
+        modal.hidden = false
+        this.setData({modal3: modal})
+    },
+
+    modal3Change: function(e){
+        var modal = this.data.modal3
+        modal.hidden = true
+        this.setData({modal3: modal})
     }
 })
