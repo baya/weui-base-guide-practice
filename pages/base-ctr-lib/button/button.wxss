@@ -12,6 +12,7 @@
 
 .res-area{
     height:100rpx;
+    text-align: center;
 }
 
 .op-area{

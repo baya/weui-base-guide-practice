@@ -16,9 +16,16 @@ var subitem_db = {
     ],
     'com-lib': [
         { name: '结果页', nav_url: '../comb-lib/result/result' },
-        { name: '文字链' },
         { name: '弹窗' },
-        { name: '搜索' }
+        { name: '页面内加载' },
+        { name: '按钮加载' },
+        { name: '搜索' },
+        { name: '搜索中' },
+        { name: '底部 Tab'},
+        { name: '顶部 Tab'},
+        { name: '顶部 Tab (二)'},
+        { name: '排序'},
+        { name: '其他'}
     ],
     'com-example-page': [
         { name: '文档说明页面' },

@@ -1,11 +1,9 @@
 /**index.wxss**/
 page {
   height: 100%;
+  background-color: #f8f8f8;
 }
-.container{
-  background-color: #f4f4f4;
-  height: 100%;
-}
+
 .mc{
   font-size:17px;
   padding:37rpx;

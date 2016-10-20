@@ -48,3 +48,7 @@
   height: 32rpx;
 }
 
+.sub {
+  color:#888888;
+}
+
