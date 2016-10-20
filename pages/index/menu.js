@@ -15,7 +15,7 @@ var subitem_db = {
         { name: '弹框', nav_url: '../base-ctr-lib/popup/popup' } 
     ],
     'com-lib': [
-        { name: '结果页' },
+        { name: '结果页', nav_url: '../comb-lib/result/result' },
         { name: '文字链' },
         { name: '弹窗' },
         { name: '搜索' }
