@@ -6,7 +6,7 @@ page {
 
 .mc{
   font-size:17px;
-  padding:37rpx;
+  padding:0 37rpx;
 }
 .menu{
   background-color:#ffffff;
