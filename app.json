@@ -9,7 +9,8 @@
      "pages/base-ctr-lib/list/list",
      "pages/base-ctr-lib/card/card",
      "pages/base-ctr-lib/popup/popup",
-     "pages/comb-lib/result/result"
+     "pages/comb-lib/result/result",
+     "pages/comb-lib/popup/popup"
   ],
   "window":{
     "backgroundTextStyle":"light",
