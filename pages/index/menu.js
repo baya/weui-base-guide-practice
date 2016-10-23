@@ -20,7 +20,7 @@ var subitem_db = {
         { name: '页面内加载', nav_url: '../comb-lib/inner_loading/inner_loading' },
         { name: '按钮加载', nav_url: '../comb-lib/btn_loading/btn_loading' },
         { name: '搜索', nav_url: '../comb-lib/search/search' },
-        { name: '搜索中' },
+        { name: '搜索中', nav_url: '../comb-lib/searching/searching' },
         { name: '底部 Tab'},
         { name: '顶部 Tab'},
         { name: '顶部 Tab (二)'},
@@ -29,11 +29,27 @@ var subitem_db = {
     ],
     'com-example-page': [
         { name: '文档说明页面' },
-        { name: '图文文章' }
+        { name: '图文文章' },
+        { name: '表单输入组合' },        
+        { name: '表单输入报错' },
+        { name: '表单输入组合（二）' },
+        { name: '收货地址'},
+        { name: '新增地址'},
+        { name: '结果页'},
+        { name: '发送验证码'},
+        { name: '获取验证码'},
+        { name: '选择控件'},
+        { name: '只读表单'}
     ],
     'android-diff-page': [
         { name: '标题单行' },
-        { name: '单行列表' }
+        { name: '标题单行（二）' },
+        { name: '标题单行（三）' },
+        { name: '无标题多行'},
+        { name: '无标题多行（二）'},
+        { name: '单行列表' },
+        { name: '单行列表（二）' },
+        { name: '单行列表（三）' }
     ]
 }
 

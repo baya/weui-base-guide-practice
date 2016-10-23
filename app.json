@@ -13,7 +13,8 @@
      "pages/comb-lib/popup/popup",
      "pages/comb-lib/inner_loading/inner_loading",
      "pages/comb-lib/btn_loading/btn_loading",
-     "pages/comb-lib/search/search"
+     "pages/comb-lib/search/search",
+     "pages/comb-lib/searching/searching"
   ],
   "window":{
     "backgroundTextStyle":"light",
