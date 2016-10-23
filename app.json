@@ -10,7 +10,8 @@
      "pages/base-ctr-lib/card/card",
      "pages/base-ctr-lib/popup/popup",
      "pages/comb-lib/result/result",
-     "pages/comb-lib/popup/popup"
+     "pages/comb-lib/popup/popup",
+     "pages/comb-lib/inner_loading/inner_loading"
   ],
   "window":{
     "backgroundTextStyle":"light",

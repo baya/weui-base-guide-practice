@@ -17,7 +17,7 @@ var subitem_db = {
     'com-lib': [
         { name: '结果页', nav_url: '../comb-lib/result/result' },
         { name: '弹窗',nav_url: '../comb-lib/popup/popup' },
-        { name: '页面内加载' },
+        { name: '页面内加载', nav_url: '../comb-lib/inner_loading/inner_loading' },
         { name: '按钮加载' },
         { name: '搜索' },
         { name: '搜索中' },
