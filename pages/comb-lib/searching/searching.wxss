@@ -10,17 +10,22 @@ page {
     padding: 16rpx;
     border-bottom: 2rpx solid rgba(0, 0, 0, 0.1);
 }
-
 .top-bar {
+    display: flex;
+    align-items: center;
+}
+.search-bar {
     background: #ffffff; 
     border-radius: 10rpx;
     position: relative;
+    display: flex;
+    align-items: center;
+    flex: 2;
 }
 
 .top-bar input {
     position: relative;
 }
-
 
 .search-ph {
     text-align: center;
@@ -43,13 +48,47 @@ page {
 .search-icon {
     width: 25rpx;
     height: 25rpx;
-    margin-right: 10rpx;
+    margin: 0 16rpx;
 }
 
 .hidden {
-    display: none;
+    display: none !important;
 }
 
 .search {
-    text-align: center;
+    flex: 2;
+    font-size: 26rpx;
+}
+
+.search-tail {
+    background: #EFEFF4;
+    color:#00C203;
+    font-size: 32rpx;
+    line-height: 57rpx;
+    padding-left: 16rpx;
+}
+
+icon.clear {
+    margin-right: 16rpx;
+}
+
+.top-bar-tail {
+    display: flex;
+    align-items: center;
+}
+
+.matching-bar {
+    background: #ffffff;
+}
+
+.matching-bar .section {
+    font-size: 28rpx;
+    margin-left: 30rpx;
+    border-bottom: 2rpx solid #EEEEEE;
+    height: 84rpx;
+    line-height: 84rpx;
+}
+
+.section text {
+    margin-left: 36rpx;
 }

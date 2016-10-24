@@ -1,4 +1,12 @@
 var $image_path = "../../../assets/images/"
+var $searchTexts = [
+            '星球大战',
+            '星球大战原力觉醒',
+            '星球大战7 上映时间',
+            '星球大战7 主角',
+            '星球大战7 千年鹰号',
+            '星球大战全球上映时间'
+        ];
 
 Page({
     data: {
@@ -7,31 +15,48 @@ Page({
             placeholder: {
                 hidden: ''
             },
-            focus: 'inputFocus',
-            blur: 'inputBlur',
-            auto_focus: false
-        }
-    },
-
-    phTap: function(e){
-        var input = this.data.input
-        input.placeholder.hidden = 'hidden'
-        //input.auto_focus = true
-        this.setData({input: input})
-    },
-
-    inputFocus: function(e){
-        var input = this.data.input
-        input.placeholder.hidden = 'hidden'
-        this.setData({input: input})
-    },
-
-    inputBlur: function(e){
-        var input = this.data.input      
-        if(!e.detail.value){
-            input.placeholder.hidden = ''
-            this.setData({input: input})
-        }
+            auto_focus: false,
+            cancelHidden: 'hidden',
+            bindinput: 'searchInput',
+            value: '',
+            matchingTexts: []
+        },
+        clearIcon: {
+            bindtap: 'cancelSearch'
+        },
         
+    },
+
+    searchInput: function(e){
+        var input = this.data.input
+        var matching = null;
+        input.cancelHidden = '';
+        input.value = e.detail.value
+        var parsedValue = input.value.replace(/\s+/g, '')
+        //console.log(parsedValue)
+        input.matchingTexts = $searchTexts.filter(function(text){
+            if(!parsedValue){
+                return false
+            }
+            matching = text.replace(/\s+/g, '').includes(parsedValue)
+            return matching
+        })
+        this.setData({input: input})
+    },
+
+    cancelSearch: function(e){
+        var input = this.data.input
+        input.cancelHidden = 'hidden'
+        input.value = ''
+        input.matchingTexts = []
+        this.setData({input: input})
+    },
+
+    selectText: function(e){
+        var input = this.data.input
+        var text = e.currentTarget.dataset.searchText
+        input.value = text
+        input.matchingTexts  = []
+        this.setData({input: input})
     }
 })
