@@ -89,6 +89,10 @@ icon.clear {
     line-height: 84rpx;
 }
 
+.matching-bar .section:last-child{
+    border: none;
+}
+
 .section text {
     margin-left: 36rpx;
 }

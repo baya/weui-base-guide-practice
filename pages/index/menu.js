@@ -21,7 +21,7 @@ var subitem_db = {
         { name: '按钮加载', nav_url: '../comb-lib/btn_loading/btn_loading' },
         { name: '搜索', nav_url: '../comb-lib/search/search' },
         { name: '搜索中', nav_url: '../comb-lib/searching/searching' },
-        { name: '底部 Tab'},
+        { name: '底部 Tab', nav_url: '../comb-lib/bottom_tab/bottom_tab'},
         { name: '顶部 Tab'},
         { name: '顶部 Tab (二)'},
         { name: '排序'},
