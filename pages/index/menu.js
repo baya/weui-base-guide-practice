@@ -22,9 +22,9 @@ var subitem_db = {
         { name: '搜索', nav_url: '../comb-lib/search/search' },
         { name: '搜索中', nav_url: '../comb-lib/searching/searching' },
         { name: '底部 Tab', nav_url: '../comb-lib/bottom_tab/bottom_tab'},
-        { name: '顶部 Tab'},
-        { name: '顶部 Tab (二)'},
-        { name: '排序'},
+        { name: '顶部 Tab', nav_url: '../comb-lib/top_tab/top_tab'},
+        { name: '顶部 Tab (二)', nav_url: '../comb-lib/top_tab2/top_tab2'},
+        { name: '排序', nav_url: '../comb-lib/top_sort/top_sort'},
         { name: '其他'}
     ],
     'com-example-page': [

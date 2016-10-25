@@ -15,7 +15,10 @@
      "pages/comb-lib/btn_loading/btn_loading",
      "pages/comb-lib/search/search",
      "pages/comb-lib/searching/searching",
-     "pages/comb-lib/bottom_tab/bottom_tab"
+     "pages/comb-lib/bottom_tab/bottom_tab",
+     "pages/comb-lib/top_tab/top_tab",
+     "pages/comb-lib/top_sort/top_sort",
+     "pages/comb-lib/top_tab2/top_tab2"
   ],
   "window":{
     "backgroundTextStyle":"light",
