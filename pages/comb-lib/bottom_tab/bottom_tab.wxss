@@ -20,7 +20,8 @@ page {
 .bottom-bar-item {
     display: flex;
     flex-flow: column;
-    align-items: center;   
+    align-items: center; 
+    position: relative;  
 }
 
 .bottom-bar-item text {
@@ -29,12 +30,35 @@ page {
     color: #7F8389;
 }
 
-.bottom-bar-item.current text{
+.current text{
     color:#09BB07;
+}
+
+.unread-count text {
+    color: #ffffff;
+    font-size: 26rpx;
 }
 
 .tab_item_icon {
     width: 54rpx;
     height: 54rpx;
     margin-bottom: 3rpx;
+}
+
+.transf {
+    transform: rotate(90deg);
+}
+
+.unread-count {
+    align-content: center;
+    position: absolute;
+    display: inline-block;
+    width: 36rpx;
+    height: 36rpx;
+    line-height: 36rpx;
+    background: #F12C20;
+    text-align: center;
+    top: -7rpx;
+    right: -21rpx;
+    border-radius:100%;
 }
