@@ -1,0 +1,40 @@
+page {
+    height: 100%;
+}
+
+.container {
+    background: #EFEFF4;
+}
+.bottom-bar {
+    display: flex;
+    justify-content: space-around;
+    background: #F7F7FA;
+    padding-top: 11rpx;
+    padding-bottom: 3rpx;
+    border-top: 2rpx solid rgba(0, 0, 0, .2);
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.bottom-bar-item {
+    display: flex;
+    flex-flow: column;
+    align-items: center;   
+}
+
+.bottom-bar-item text {
+    font-size: 20rpx;
+    line-height: 28rpx;
+    color: #7F8389;
+}
+
+.bottom-bar-item.current text{
+    color:#09BB07;
+}
+
+.tab_item_icon {
+    width: 54rpx;
+    height: 54rpx;
+    margin-bottom: 3rpx;
+}
