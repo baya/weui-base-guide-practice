@@ -9,7 +9,7 @@ page {
 .top-bar {
     display: flex;
     justify-content: space-around;
-    background: #F7F7FA;
+    background: #FAFAFA;
     position: absolute;
     top: 0;
     width: 100%;
@@ -23,11 +23,37 @@ page {
     width: 100%;
 }
 
+.tab-content {
+    display: flex;
+    justify-content: center;
+}
+
 .top-bar-item:last-child{
     border-right: none;
 }
 
 .top-bar-item.current {
     background: #EAEAEA;
+}
+
+.sort-op {
+    margin-left: 10rpx;
+}
+
+.triangle-up {
+    width: 0;
+	height: 0;
+	border-left: 10rpx solid transparent;
+	border-right: 10rpx solid transparent;
+	border-bottom: 12rpx solid #BCBEC1;
+    margin-bottom: 10rpx;
+}
+
+.triangle-down {
+	width: 0;
+	height: 0;
+	border-left: 10rpx solid transparent;
+	border-right:10rpx solid transparent;
+	border-top: 12rpx solid #BCBEC1;
 }
 

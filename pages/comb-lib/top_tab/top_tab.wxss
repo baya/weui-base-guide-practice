@@ -9,7 +9,7 @@ page {
 .top-bar {
     display: flex;
     justify-content: space-around;
-    background: #F7F7FA;
+    background: #FAFAFA;
     position: absolute;
     top: 0;
     width: 100%;
