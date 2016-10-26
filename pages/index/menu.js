@@ -25,7 +25,7 @@ var subitem_db = {
         { name: '顶部 Tab', nav_url: '../comb-lib/top_tab/top_tab'},
         { name: '顶部 Tab (二)', nav_url: '../comb-lib/top_tab2/top_tab2'},
         { name: '排序', nav_url: '../comb-lib/top_sort/top_sort'},
-        { name: '其他'}
+        { name: '其他', nav_url: '../comb-lib/other/other'}
     ],
     'com-example-page': [
         { name: '文档说明页面' },

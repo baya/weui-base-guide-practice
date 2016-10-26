@@ -18,7 +18,8 @@
      "pages/comb-lib/bottom_tab/bottom_tab",
      "pages/comb-lib/top_tab/top_tab",
      "pages/comb-lib/top_sort/top_sort",
-     "pages/comb-lib/top_tab2/top_tab2"
+     "pages/comb-lib/top_tab2/top_tab2",
+     "pages/comb-lib/other/other"
   ],
   "window":{
     "backgroundTextStyle":"light",

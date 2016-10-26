@@ -1,0 +1,51 @@
+<view class="container">
+    <view class="main">
+        <view class="content">
+            <view class="section">
+                <view class="section-header">
+                    <view class="section-row-wrp">
+                        <view class="section-row">
+                            <text>滑块选择器</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="section-body">
+                    <view class="section-row-wrp">
+                        <view class="section-row">
+                            <text>开启中</text>
+                            <switch checked bindchange=""/>
+                        </view>
+                    </view>
+                    <view class="section-row-wrp">
+                        <view class="section-row">
+                            <text>关闭</text>
+                            <switch checked bindchange=""/>
+                        </view>
+                    </view>
+                </view>
+            </view>
+             <view class="section">
+                <view class="section-header">
+                    <view class="section-row-wrp">
+                        <view class="section-row">
+                            <text>宽行组合列表</text>
+                        </view>
+                    </view>
+                </view>
+                <view class="section-body">
+                    <view class="section-row-wrp">
+                        <view class="section-row section-row-big">
+                            <text>{{list[0].content}}</text>
+                        </view>
+                    </view>
+                    <view class="section-row-wrp">
+                        <view class="section-row section-row-big">
+                            <text>{{list[1].content}}</text>
+                            <image class="chevron_icon" src="{{chevron_png.src}}"></image>
+                        </view>
+                    </view>
+                </view>
+            </view>
+        </view>
+    </view>
+</view>
