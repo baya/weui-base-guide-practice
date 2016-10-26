@@ -56,3 +56,44 @@ page {
     margin-right: 30rpx;
 }
 
+.section-body.drop-list-box .section-row-wrp {
+    background: rgba(255, 255, 255, .7);
+    padding-left:0;       
+}
+
+.section-body.drop-list-box  .section-row {
+    justify-content: center;
+    padding: 31rpx 0;
+    font-size: 36rpx;
+}
+
+.no-border-bottom {
+    border-bottom: 0;
+}
+
+.section-row-wrp.cancel {
+    margin-top: 12rpx;
+}
+
+.sub-info {
+    font-size: 26rpx;
+    color: #9B9B9B;
+}
+
+.section.footer .section-row {
+    justify-content: flex-start;
+    border-bottom: 0;
+    padding-left: 30rpx;
+    padding-top: 50rpx;
+}
+
+.footer checkbox {
+    margin-right: 10rpx;
+}
+
+.link {
+    color:#576B95;
+}
+
+
+
