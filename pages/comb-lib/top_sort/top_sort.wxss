@@ -36,6 +36,22 @@ page {
     background: #EAEAEA;
 }
 
+.top-bar-item.up .triangle-up{
+    opacity: 1;
+}
+
+.top-bar-item.up .triangle-down {
+    opacity: 0;
+}
+
+.top-bar-item.down .triangle-up{
+    opacity: 0;
+}
+
+.top-bar-item.down .triangle-down{
+    opacity: 1;
+}
+
 .sort-op {
     margin-left: 10rpx;
 }

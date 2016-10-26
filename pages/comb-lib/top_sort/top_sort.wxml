@@ -2,7 +2,7 @@
     <view class="main">
         <view class="content">
             <view class="top-bar">
-                <view wx:for="{{tabs}}" wx:for-item="tab" id="{{tab.id}}" class="top-bar-item {{tab.current}}" bindtap="tabTap">
+                <view wx:for="{{tabs}}" wx:for-item="tab" id="{{tab.id}}" class="top-bar-item {{tab.current}} {{tab.sort_type}}" bindtap="tabTap">
                     <view class="tab-content">
                         <text>{{tab.name}}</text>
                          <view class="sort-op">
