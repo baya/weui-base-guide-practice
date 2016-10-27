@@ -29,7 +29,7 @@ var subitem_db = {
     ],
     'com-example-page': [
         { name: '文档说明', nav_url: '../comb-example/doc/doc' },
-        { name: '图文文章' },
+        { name: '图文', nav_url: '../comb-example/img_doc/img_doc' },
         { name: '表单输入组合' },        
         { name: '表单输入报错' },
         { name: '表单输入组合（二）' },
