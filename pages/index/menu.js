@@ -28,7 +28,7 @@ var subitem_db = {
         { name: '其他', nav_url: '../comb-lib/other/other'}
     ],
     'com-example-page': [
-        { name: '文档说明页面' },
+        { name: '文档说明', nav_url: '../comb-example/doc/doc' },
         { name: '图文文章' },
         { name: '表单输入组合' },        
         { name: '表单输入报错' },

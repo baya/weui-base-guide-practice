@@ -19,7 +19,8 @@
      "pages/comb-lib/top_tab/top_tab",
      "pages/comb-lib/top_sort/top_sort",
      "pages/comb-lib/top_tab2/top_tab2",
-     "pages/comb-lib/other/other"
+     "pages/comb-lib/other/other",
+     "pages/comb-example/doc/doc"
   ],
   "window":{
     "backgroundTextStyle":"light",
