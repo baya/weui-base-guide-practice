@@ -17,7 +17,7 @@
 }
 
 .a-title {
-    font-size: 34rpx;
+    font-size: 40rpx;
     font-weight: bold;
 }
 
