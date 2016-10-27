@@ -1,9 +1,9 @@
 var am_count = 0;
-var am_db = {}
+const am_db = {}
 var style = {
     menuItemHeight: '114rpx'
 }
-var subitem_db = {
+const subitem_db = {
     'base-ctr-lib': [
         { name: '图标', nav_url: '../base-ctr-lib/icon/icon' },
         { name: '提示', nav_url: '../base-ctr-lib/toast/toast' },
