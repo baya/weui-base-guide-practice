@@ -21,7 +21,8 @@
      "pages/comb-lib/top_tab2/top_tab2",
      "pages/comb-lib/other/other",
      "pages/comb-example/doc/doc",
-     "pages/comb-example/img_doc/img_doc"
+     "pages/comb-example/img_doc/img_doc",
+     "pages/comb-example/form/form"
   ],
   "window":{
     "backgroundTextStyle":"light",
