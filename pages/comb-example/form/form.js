@@ -5,7 +5,11 @@ Page({
         check_box_png: {src: $image_path + 'check_box.png'},
         check_box_blank_png: {src: $image_path + 'check_box_blank.png'},
         check_toggles: ['hidden', ''],
-        checked_term: false
+        checked_term: false,
+        card: {
+            valid_dates: ['2016-10', '2016-11', '2016-12', '2017-01'],
+            date: ''
+        }
     },
 
     checkTap(e){
@@ -25,5 +29,11 @@ Page({
         }
        
         this.setData({check_toggles: check_toggles, checked_term: checked_term})
+    },
+
+    selectCardDate(e){
+        var card = this.data.card
+        card.date = e.detail.value
+        this.setData({card:card})
     }
 })

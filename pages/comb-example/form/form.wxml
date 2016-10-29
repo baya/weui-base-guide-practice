@@ -19,7 +19,9 @@
                 <view class="section-body">
                     <view class="section-row">
                         <text class="col col1">有效期</text>
-                        <picker class="col col2" mode="time" ><text class="plh">请选择月份/年份</text></picker>
+                        <picker class="col col2" value="{{card.date}}" mode="selector" range="{{card.valid_dates}}" bindchange="selectCardDate">
+                            <text class="plh">请选择月份/年份</text>
+                        </picker>
                         <icon type='info_circle' size='23' />
                     </view>
                 </view>

@@ -5,7 +5,11 @@ Page({
         check_box_png: {src: $image_path + 'check_box.png'},
         check_box_blank_png: {src: $image_path + 'check_box_blank.png'},
         check_toggles: ['hidden', ''],
-        checked_term: false
+        checked_term: false,
+        form: {
+            error_msg: '卡号格式不正确',
+            error_hidden: 'hidden'
+        }
     },
 
     checkTap(e){
@@ -23,7 +27,14 @@ Page({
         } else {
             checked_term = false
         }
-       
         this.setData({check_toggles: check_toggles, checked_term: checked_term})
+    },
+
+    formSubmit(e){   
+        var form = this.data.form
+        if(form.error_hidden == 'hidden'){
+            form.error_hidden = ''
+        }     
+        this.setData({form: form})
     }
 })

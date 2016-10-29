@@ -90,3 +90,18 @@ page {
     padding-left: 0;
 }
 
+.error {
+    background: #e64340;
+    color: #ffffff;
+}
+
+.section.notice {
+    display: flex;
+    justify-content: center;
+    height: 70rpx;
+    align-items: center;
+    position: absolute;
+    width: 100%;    
+}
+
+
