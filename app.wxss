@@ -60,3 +60,7 @@
   border: 0;
 }
 
+.hidden {
+  display: none;
+}
+

@@ -56,13 +56,17 @@
             </view>
             <view class="section check-term">
                 <view class="section-row no-border sub tf-size-14">
+                    <view class="check-box" bindtap="checkTap">
+                        <image class="check-box-png {{check_toggles[0]}}" src="{{check_box_png.src}}"></image>
+                        <image class="check-box-png {{check_toggles[1]}}" src="{{check_box_blank_png.src}}"></image>
+                    </view>
                     <text>已阅读并同意</text>
                     <text class="link">《借款额度合同及相关授权》</text>
                 </view>
             </view>
             <view class="section">
                 <view class="section-row no-border">
-                    <button type="primary" disabled="true">下一步</button>
+                    <button type="primary" disabled="{{!checked_term}}">下一步</button>
                 </view>
             </view>
             <view class="footer">

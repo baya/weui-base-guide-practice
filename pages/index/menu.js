@@ -1,6 +1,6 @@
 var am_count = 0;
 const am_db = {}
-var style = {
+const style = {
     menuItemHeight: '114rpx'
 }
 const subitem_db = {

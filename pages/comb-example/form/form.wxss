@@ -83,3 +83,9 @@ page {
     color: #d5d5d5;
 }
 
+.check-box-png {
+    width: 24rpx;
+    height: 24rpx;
+    padding: 10rpx;
+}
+
