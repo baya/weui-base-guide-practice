@@ -56,3 +56,7 @@
     color:#576B95;
 }
 
+.no-border {
+  border: 0;
+}
+
