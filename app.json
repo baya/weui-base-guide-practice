@@ -24,7 +24,8 @@
      "pages/comb-example/img_doc/img_doc",
      "pages/comb-example/form/form",
      "pages/comb-example/form_error/form_error",
-     "pages/comb-example/form2/form2"
+     "pages/comb-example/form2/form2",
+     "pages/comb-example/ship_address/ship_address"
   ],
   "window":{
     "backgroundTextStyle":"light",

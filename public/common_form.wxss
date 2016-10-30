@@ -13,18 +13,32 @@ page {
     padding-top: 20rpx;
 }
 
-.section {
+.section-wrp {
     background: #ffffff;
+}
+
+.section{
+    padding-left: 30rpx;
 }
 
 .section-row {
     display: flex;
     align-items: center;
-    padding: 0 30rpx;
+    padding-right: 30rpx;
     border-bottom: 2rpx solid #f3f3f3;
 }
 
-.section:last-child .section-row{
+.section-row.row-2-cols {
+    justify-content: space-between;
+}
+
+.section-row.mult-lines {
+    line-height: 42rpx;
+    padding-top: 30rpx;
+    padding-bottom: 30rpx;
+}
+
+.section-wrp:last-child .section-row{
     border: 0;
 }
 
@@ -62,6 +76,11 @@ page {
 .col-icon {
     width: 16rpx;
     height: 25rpx;
+}
+
+.col-icon2 {
+    width: 36rpx;
+    height: 36rpx;
 }
 
 .plh {
