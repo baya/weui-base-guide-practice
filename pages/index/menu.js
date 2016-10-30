@@ -32,7 +32,7 @@ const subitem_db = {
         { name: '图文', nav_url: '../comb-example/img_doc/img_doc' },
         { name: '表单输入组合', nav_url: '../comb-example/form/form' },        
         { name: '表单输入报错',nav_url: '../comb-example/form_error/form_error' },
-        { name: '表单输入组合（二）' },
+        { name: '表单输入组合（二）', nav_url: '../comb-example/form2/form2' },
         { name: '收货地址'},
         { name: '新增地址'},
         { name: '结果页'},
