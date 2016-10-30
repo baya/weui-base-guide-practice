@@ -34,6 +34,7 @@ page {
 }
 
 .btn-area button {
+    color: #ffffff;
     width: 100%;
 }
 

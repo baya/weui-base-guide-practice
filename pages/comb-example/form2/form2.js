@@ -8,7 +8,8 @@ Page({
             index: 0
         },
         button: {
-            content: '下一步'
+            content: '下一步',
+            disabled: true
         }
     }
 })

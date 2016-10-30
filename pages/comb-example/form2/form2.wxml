@@ -41,7 +41,7 @@
                 </view>
                 <view class="section btn-area">
                     <view class="section-row">
-                        <button type="primary">{{button.content}}</button>
+                        <button type="primary" disabled="{{button.disabled}}">{{button.content}}</button>
                     </view>
                 </view>
             </form>
