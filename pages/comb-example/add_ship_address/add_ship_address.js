@@ -1,4 +1,5 @@
 const $image_path = "../../../assets/images/"
+const $page_path = '../../'
 
 Page({
     data: {
@@ -17,5 +18,8 @@ Page({
 
     formSubmit(e){
         console.log("form submit", e.detail.value)
+        wx.navigateTo({
+            url: $page_path + 'comb-example/result/result'
+        })
     }
 })
