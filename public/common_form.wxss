@@ -87,3 +87,7 @@ page {
     color: #d5d5d5;
     font-size: 34rpx;
 }
+
+.color-3 {
+    color: #1AAD19;
+}

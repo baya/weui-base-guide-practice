@@ -47,7 +47,8 @@ Page({
 
   onReady: function(){
     this.$m = menu.setup(this, this.data.menu_list)
-    this.$m.closeMenus()
+    var menu_list = this.$m.closeMenus()
+    this.setData({menu_list: menu_list})
   },
 
   toogleMenu: function(e){

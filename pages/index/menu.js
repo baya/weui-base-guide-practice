@@ -36,7 +36,7 @@ const subitem_db = {
         { name: '收货地址', nav_url: '../comb-example/ship_address/ship_address'},
         { name: '新增地址', nav_url: '../comb-example/add_ship_address/add_ship_address'},
         { name: '结果页', nav_url: '../comb-example/result/result'},
-        { name: '发送验证码'},
+        { name: '发送验证码', nav_url: '../comb-example/send_form_code/send_form_code'},
         { name: '获取验证码'},
         { name: '选择控件'},
         { name: '只读表单'}
@@ -120,7 +120,9 @@ function setup(page, menu_list){
             })
             that.rangeMenu(m, style.menuItemHeight)
         })
-        page.setData({menu_list: menu_list})
+
+        return menu_list
+        
     },
 
     closeOtherMenus: function( menu ) {
