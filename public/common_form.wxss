@@ -84,10 +84,14 @@ page {
 }
 
 .plh {
-    color: #d5d5d5;
+    color: #B2B2B2;
     font-size: 34rpx;
 }
 
 .color-3 {
     color: #1AAD19;
+}
+
+.color-sub {
+    color:#B2B2B2;
 }

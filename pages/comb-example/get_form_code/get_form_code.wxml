@@ -28,8 +28,8 @@
                                 <text>手机号码</text>
                             </view>
                             <view class="col col2">
-                                <input type="text" placeholder="填写手机号码" placeholder-class="plh"/>
-                                <text class="tf-size-16 color-3">获取验证码</text>
+                                <input type="text" placeholder="填写手机号码" placeholder-class="plh" value="15625166666"/>
+                                <text class="tf-size-16 color-sub">重新发送(<text>{{timeCount}}</text>)</text>
                             </view>
                         </view>
                     </view>

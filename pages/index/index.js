@@ -53,6 +53,7 @@ Page({
 
   toogleMenu: function(e){
     var m = this.$m.getMenu( e.currentTarget.id )
-    this.$m.toogle( m)
+    var menu_list = this.$m.toogle( m)
+    this.setData({menu_list: menu_list})
   }
 })
