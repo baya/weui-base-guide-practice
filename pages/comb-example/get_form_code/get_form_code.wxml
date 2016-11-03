@@ -29,7 +29,10 @@
                             </view>
                             <view class="col col2">
                                 <input type="text" placeholder="填写手机号码" placeholder-class="plh" value="15625166666"/>
-                                <text class="tf-size-16 color-sub">重新发送(<text>{{timeCount}}</text>)</text>
+                                <view class="toggle-code">
+                                    <text class="tf-size-16 color-sub  {{code.resend_hidden}}" >重新发送({{timeCount}})</text>
+                                    <text class="tf-size-16 color-3 {{code.get_hidden}}" bindtap="sendCode">获取验证码</text>
+                                </view>
                             </view>
                         </view>
                     </view>
