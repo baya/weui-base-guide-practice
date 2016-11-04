@@ -9,11 +9,9 @@
                                 <text>国家/地区</text>
                             </view>
                             <view class="col col2">
-                                <view>
                                     <picker mode="selector" range="{{country_picker.items}}" value="{{country_picker.index}}" bindchange="pickerChange">
                                         <text>{{country_picker.items[country_picker.index]}}</text>
                                     </picker>
-                                </view>
                                 <view>
                                     <image class="col-icon" src="{{chevron_png.src}}"/>
                                 </view>
