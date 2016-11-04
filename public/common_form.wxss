@@ -95,3 +95,13 @@ page {
 .color-sub {
     color:#B2B2B2;
 }
+
+.col picker {
+    width: 100%;
+}
+
+.col-right {
+    text-align: right;
+    width: 100%;
+    margin-right: 30rpx;
+}

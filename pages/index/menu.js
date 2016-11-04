@@ -38,7 +38,7 @@ const subitem_db = {
         { name: '结果页', nav_url: '../comb-example/result/result'},
         { name: '发送验证码', nav_url: '../comb-example/send_form_code/send_form_code'},
         { name: '获取验证码', nav_url: '../comb-example/get_form_code/get_form_code'},
-        { name: '选择控件'},
+        { name: '选择控件', nav_url: '../comb-example/select_ctrl/select_ctrl'},
         { name: '只读表单'}
     ],
     'android-diff-page': [

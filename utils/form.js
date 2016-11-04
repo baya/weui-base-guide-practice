@@ -1,6 +1,5 @@
 module.exports = {
-    codeWaiting(data, f){
-        console.log(data)
+    codeWaiting(data, f, t){
         var code = data.code
         var t = setInterval(function () {
             var timeCount = data.timeCount - 1
@@ -14,7 +13,7 @@ module.exports = {
                 timeCount: timeCount,
                 code: code
             })
-        }, 1000)
+        }, t)
     }
 }
 

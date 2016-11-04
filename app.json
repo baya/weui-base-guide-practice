@@ -29,7 +29,8 @@
      "pages/comb-example/add_ship_address/add_ship_address",
      "pages/comb-example/result/result",
      "pages/comb-example/send_form_code/send_form_code",
-     "pages/comb-example/get_form_code/get_form_code"
+     "pages/comb-example/get_form_code/get_form_code",
+     "pages/comb-example/select_ctrl/select_ctrl"
   ],
   "window":{
     "backgroundTextStyle":"light",
