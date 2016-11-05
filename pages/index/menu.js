@@ -43,7 +43,7 @@ const subitem_db = {
     ],
     'android-diff-page': [
         { name: '标题单行', nav_url: '../android-diff/title_single_line/title_single_line'},
-        { name: '无标题'},
+        { name: '无标题', nav_url: '../android-diff/blank_title/blank_title'},
         { name: '单行列表' }
     ]
 }
