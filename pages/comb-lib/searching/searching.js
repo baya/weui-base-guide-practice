@@ -19,21 +19,22 @@ Page({
             cancelHidden: 'hidden',
             bindinput: 'searchInput',
             value: '',
-            matchingTexts: []
+            matchingTexts: [],
+            searching: ''
         },
         clearIcon: {
             bindtap: 'cancelSearch'
-        },
+        }
         
     },
 
     searchInput: function(e){
         var input = this.data.input
-        var matching = null;
-        input.cancelHidden = '';
+        var matching = null
+        input.cancelHidden = ''
+        input.searching = 'searching'
         input.value = e.detail.value
         var parsedValue = input.value.replace(/\s+/g, '')
-        //console.log(parsedValue)
         input.matchingTexts = $searchTexts.filter(function(text){
             if(!parsedValue){
                 return false
@@ -47,6 +48,7 @@ Page({
     cancelSearch: function(e){
         var input = this.data.input
         input.cancelHidden = 'hidden'
+        input.searching = ''
         input.value = ''
         input.matchingTexts = []
         this.setData({input: input})

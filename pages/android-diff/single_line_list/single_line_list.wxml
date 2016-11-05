@@ -28,11 +28,11 @@
                 <view class="section section-list">
                     <view class="row with-2cols">
                         <text>单行列表</text>
-                        <switch class='android-sw' checked bindchange="switch1Change"/>
+                        <switch class='android-sw' checked />
                     </view>
                     <view class="row with-2cols">
                         <text>单行列表</text>
-                        <switch class='android-sw' bindchange="switch2Change"/>
+                        <switch class='android-sw' />
                     </view>
                     <view class="row with-2cols">
                         <text>单行列表</text>

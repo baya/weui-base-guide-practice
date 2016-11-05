@@ -11,8 +11,12 @@ page {
     border-bottom: 2rpx solid rgba(0, 0, 0, 0.1);
 }
 .top-bar {
-    display: flex;
     align-items: center;
+}
+
+.search-bar-wrp {
+    display: flex;
+    justify-content: space-between;
 }
 .search-bar {
     background: #ffffff; 
@@ -20,7 +24,11 @@ page {
     position: relative;
     display: flex;
     align-items: center;
-    flex: 2;
+    width: 100%;
+}
+
+.search-bar.searching {
+    width: 89%;
 }
 
 .top-bar input {
@@ -64,8 +72,10 @@ page {
     background: #EFEFF4;
     color:#00C203;
     font-size: 32rpx;
-    line-height: 57rpx;
     padding-left: 16rpx;
+    display: flex;
+    align-items: center;
+    min-width: 100rpx;
 }
 
 icon.clear {
