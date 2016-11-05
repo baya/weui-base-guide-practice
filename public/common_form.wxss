@@ -10,7 +10,7 @@ page {
 }
 
 .content.gap-top {
-    padding-top: 20rpx;
+    padding-top: 30rpx;
 }
 
 .section-wrp {
