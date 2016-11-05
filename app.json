@@ -30,7 +30,8 @@
      "pages/comb-example/result/result",
      "pages/comb-example/send_form_code/send_form_code",
      "pages/comb-example/get_form_code/get_form_code",
-     "pages/comb-example/select_ctrl/select_ctrl"
+     "pages/comb-example/select_ctrl/select_ctrl",
+     "pages/comb-example/read_only_form/read_only_form"
   ],
   "window":{
     "backgroundTextStyle":"light",
