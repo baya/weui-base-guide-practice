@@ -35,7 +35,7 @@ page {
 }
 
 .btn {
-    font-size: 42rpx;
+    font-size: 40rpx;
     padding: 20rpx;
 }
 
