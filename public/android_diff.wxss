@@ -24,7 +24,7 @@ page {
 }
 
 .section {
-    padding: 30rpx;
+    padding: 50rpx;
     /* offset-x | offset-y | blur-radius | spread-radius | color */
     box-shadow: 0 0 20rpx rgba(0, 0, 0, 0.2);
 }

@@ -33,7 +33,8 @@
      "pages/comb-example/select_ctrl/select_ctrl",
      "pages/comb-example/read_only_form/read_only_form",
      "pages/android-diff/title_single_line/title_single_line",
-     "pages/android-diff/blank_title/blank_title"
+     "pages/android-diff/blank_title/blank_title",
+     "pages/android-diff/single_line_list/single_line_list"
   ],
   "window":{
     "backgroundTextStyle":"light",
