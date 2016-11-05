@@ -42,8 +42,8 @@ const subitem_db = {
         { name: '只读表单', nav_url: '../comb-example/read_only_form/read_only_form'}
     ],
     'android-diff-page': [
-        { name: '标题单行' },
-        { name: '无标题多行'},
+        { name: '标题单行', nav_url: '../android-diff/title_single_line/title_single_line'},
+        { name: '无标题'},
         { name: '单行列表' }
     ]
 }

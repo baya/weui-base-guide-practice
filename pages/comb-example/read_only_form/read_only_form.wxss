@@ -26,4 +26,6 @@ form.readonly button {
     color: #09BB07;
     background: #ffffff;
     font-size: 30rpx;
+    height: 88rpx;
+    line-height: 88rpx;
 }
