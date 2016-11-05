@@ -43,13 +43,8 @@ const subitem_db = {
     ],
     'android-diff-page': [
         { name: '标题单行' },
-        { name: '标题单行（二）' },
-        { name: '标题单行（三）' },
         { name: '无标题多行'},
-        { name: '无标题多行（二）'},
-        { name: '单行列表' },
-        { name: '单行列表（二）' },
-        { name: '单行列表（三）' }
+        { name: '单行列表' }
     ]
 }
 
