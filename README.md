@@ -32,7 +32,7 @@ Rails 程序
 
 ### 微信小程序练习预览
 
-代码在 [https://github.com/baya/weui-base-guide-practice](https://github.com/baya/weui-base-guide-practice), 一共有 40 个页面，欢迎下载玩耍。
+代码在 [https://github.com/baya/weui-base-guide-practice](https://github.com/baya/weui-base-guide-practice), 一共有 36 个页面，欢迎下载玩耍。
 
 首页:
 
